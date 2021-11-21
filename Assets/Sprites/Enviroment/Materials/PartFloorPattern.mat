@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: PartFloorPattern
+  m_Shader: {fileID: -6465566751694194690, guid: 0ffeb8d0bc2abc94c85215e1001add91, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - Normal:
+        m_Texture: {fileID: 2800000, guid: fdb7179c3a5c1ae499d83ddb03b5a951, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 9c180dbc65ad50e4eb07c7bec35963e8, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_e396e063d9ca49f2bf68f937bd1ea44a_Texture_1:
+        m_Texture: {fileID: 2800000, guid: dc95c26e0f104e341aa791eca73e234b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - GradientScale: 10
+    - NoiseScale: 10
+    - NoiseScale_1: 28.65
+    - NormalStrength: 0.01
+    - PixelScale: 20
+    - Power: 2
+    - Power_1: 2
+    - Power_2: 2
+    - Step: 0.5
+    m_Colors:
+    - ColorBase: {r: 0.1333333, g: 0.1254902, b: 0.2039216, a: 1}
+    - ColorPixels: {r: 0.2705882, g: 0.1568628, b: 0.2352941, a: 1}
+  m_BuildTextureStacks: []
