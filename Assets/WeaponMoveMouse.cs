@@ -1,9 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using DG.Tweening;
 
 public class WeaponMoveMouse : MonoBehaviour
 {
+
+    [SerializeField] Animator animator;
+
+    /*
     [SerializeField] private float maxAngle;
     [SerializeField] private float weaponSpeed;
     [SerializeField] private float turnTimer;
@@ -17,19 +22,29 @@ public class WeaponMoveMouse : MonoBehaviour
     private Vector3 camPosition;
     private Vector3 mousePosition;
     private Vector3 mouseDistance;
-    float distance;
+    float distance;[
     float currentLerpTime;
-    float turnPlayer;
+    float turnPlayer;*/
 
     void Start()
     {
-       
     }
 
 
     void Update()
     {
 
+        if (Input.GetKeyDown(KeyCode.Mouse0))
+        {
+            animator.Play("WeaponSwingLeft");
+        }
+        else if (Input.GetKeyDown(KeyCode.Mouse1))
+        {
+            animator.Play("WeaponSwingRight");
+        }
+
+
+        /*
         camPosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         camPosition = transform.InverseTransformPoint(camPosition);
         Plane plane = new Plane(Vector3.up, 0);
